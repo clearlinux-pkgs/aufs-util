@@ -4,7 +4,7 @@
 #
 Name     : aufs-util
 Version  : 09a46dd640afeca9871f35b9bddc51d31f3a5f0d
-Release  : 1
+Release  : 2
 URL      : https://sourceforge.net/code-snapshots/git/a/au/aufs/aufs-util.git/aufs-aufs-util-09a46dd640afeca9871f35b9bddc51d31f3a5f0d.zip
 Source0  : https://sourceforge.net/code-snapshots/git/a/au/aufs/aufs-util.git/aufs-aufs-util-09a46dd640afeca9871f35b9bddc51d31f3a5f0d.zip
 Summary  : No detailed summary available
