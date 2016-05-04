@@ -1,0 +1,25 @@
+From 6175e3369e94b07788abc7b3bbb0664034d4de3c Mon Sep 17 00:00:00 2001
+From: Miguel Bernal Marin <miguel.bernal.marin@linux.intel.com>
+Date: Wed, 4 May 2016 09:37:33 -0500
+Subject: [PATCH 3/3] remove change ownership
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 1513601..127ec6d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -21,7 +21,7 @@ override CPPFLAGS += -I./libau
+ override CPPFLAGS += -DAUFHSM_CMD=\"/usr/bin/aufhsm\"
+ override CFLAGS += -O -Wall -Ikernel_headers
+ INSTALL ?= install
+-Install = ${INSTALL} -o root -g root -p
++Install = ${INSTALL}
+ ManDir = /usr/share/man
+ 
+ #
+-- 
+2.8.1
+

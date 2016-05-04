@@ -1,0 +1,13 @@
+libau.so.2:closedir
+libau.so.2:fpathconf
+libau.so.2:libau_dl
+libau.so.2:libau_test_func
+libau.so.2:pathconf
+libau.so.2:rdu_buf_lock
+libau.so.2:rdu_free
+libau.so.2:rdu_init
+libau.so.2:rdu_lib_init
+libau.so.2:readdir
+libau.so.2:readdir64
+libau.so.2:readdir64_r
+libau.so.2:readdir_r
